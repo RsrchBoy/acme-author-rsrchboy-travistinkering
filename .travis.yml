@@ -36,6 +36,8 @@ before_install:
    - git config user.email 'travis@nowhere.dne'
 
    # pull down our cache
+   - wget https://raw.githubusercontent.com/RsrchBoy/travis-p5-cache/master/fetch-cache
+   - source ./fetch-cache
    - export PB_LIB="dzil-cache"
    - export PB_TARBALL="$PERLBREW_PERL@$PB_LIB.tar.bz2"
    - perlbrew lib create $PB_LIB
