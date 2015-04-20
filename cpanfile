@@ -1,4 +1,4 @@
-requires "Acme::Bleach" => "0";
+requires "Lingua::ManagementSpeak" => "0";
 requires "Moose" => "0";
 requires "namespace::autoclean" => "0";
 requires "perl" => "5.006";
@@ -21,6 +21,7 @@ on 'configure' => sub {
 
 on 'develop' => sub {
   requires "Pod::Coverage::TrustPod" => "0";
+  requires "Test::DBICSchemaLoaderDigest" => "0";
   requires "Test::EOL" => "0";
   requires "Test::More" => "0.88";
   requires "Test::NoTabs" => "0";
