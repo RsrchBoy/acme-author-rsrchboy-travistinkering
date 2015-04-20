@@ -5,7 +5,7 @@ package Acme::Author::RSRCHBOY::TravisTinkering;
 use Moose;
 use namespace::autoclean;
 
-use Acme::Bleach;
+use Lingua::ManagementSpeak;
 
 __PACKAGE__->meta->make_immutable;
 !!42;
