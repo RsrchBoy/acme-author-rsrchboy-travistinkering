@@ -31,14 +31,12 @@ branches:
       #- CPANM_OPTS="-q --skip-satisfied --notest --no-man-pages"
 
 before_install:
-   # pull down our cache
-   #- wget https://raw.githubusercontent.com/RsrchBoy/travis-p5-cache/master/fetch-cache
     - git clone --depth=1 --branch=master https://github.com/RsrchBoy/travis-p5-cache.git ../p5
-    - source ./init
-    - ./before-install.dzil
+    - source ../p5/init
+    - ../p5/before-install.dzil
 
 install:
-   - ./install.dzil
+   - ../p5/install.dzil
 
 script:
-   - ./script.dzil
+   - ../p5/script.dzil
