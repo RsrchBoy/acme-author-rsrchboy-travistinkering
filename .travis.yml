@@ -34,7 +34,8 @@ before_install:
    # pull down our cache
    #- wget https://raw.githubusercontent.com/RsrchBoy/travis-p5-cache/master/fetch-cache
     - git clone --depth=1 --branch=master https://github.com/RsrchBoy/travis-p5-cache.git ../p5
-    - source ./before-install.fetch-cache
+    - source ./init
+    - ./before-install.dzil
 
 install:
    - ./install.dzil
