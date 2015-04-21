@@ -33,19 +33,11 @@ branches:
 before_install:
    # pull down our cache
    #- wget https://raw.githubusercontent.com/RsrchBoy/travis-p5-cache/master/fetch-cache
-   - source ./before-install.fetch-cache
-
-   # for DZP LinkCheck
-   - cpanp x
+    - git clone --depth=1 --branch=master https://github.com/RsrchBoy/travis-p5-cache.git ../p5
+    - source ./before-install.fetch-cache
 
 install:
-   # not so much install our package as all its prereqs
    - ./install.dzil
-   #- cpanm --with-develop -q --skip-satisfied --no-man-pages --installdeps .
-   #- dzil authordeps --missing        | xargs -t cpanm $CPANM_OPTS --skip-satisfied || { cat ~/.cpanm/build.log ; false ; }
-   #- dzil listdeps --author --missing | xargs -t cpanm $CPANM_OPTS --skip-satisfied || { cat ~/.cpanm/build.log ; false ; }
 
 script:
    - ./script.dzil
-   #- unset HARNESS_SUBCLASS
-   #- dzil test --all
