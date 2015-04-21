@@ -5,6 +5,6 @@
 set -ex
 
 # not so much install our package as all its prereqs
-echo . | xargs -t cpanm --with-develop --skip-satisfied $CPANM_OPTS --installdeps
+cpanm --with-develop --skip-satisfied $CPANM_OPTS --installdeps .
 dzil authordeps --missing        | xargs -t cpanm $CPANM_OPTS --skip-satisfied || { cat ~/.cpanm/build.log ; false ; }
 dzil listdeps --author --missing | xargs -t cpanm $CPANM_OPTS --skip-satisfied || { cat ~/.cpanm/build.log ; false ; }
