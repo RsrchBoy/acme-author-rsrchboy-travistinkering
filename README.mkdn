@@ -1,10 +1,13 @@
+[![Build Status](https://travis-ci.org/RsrchBoy/acme-author-rsrchboy-travistinkering.svg?branch=master)](https://travis-ci.org/RsrchBoy/acme-author-rsrchboy-travistinkering)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/Acme-Author-RSRCHBOY-TravisTinkering.png)](http://cpants.charsbar.org/dist/overview/Acme-Author-RSRCHBOY-TravisTinkering)
+
 # NAME
 
 Acme::Author::RSRCHBOY::TravisTinkering - The great new Acme::Author::RSRCHBOY::TravisTinkering!
 
 # VERSION
 
-This document describes version 0.001 of Acme::Author::RSRCHBOY::TravisTinkering - released April 20, 2015 as part of Acme-Author-RSRCHBOY-TravisTinkering.
+This document describes version 0.001 of Acme::Author::RSRCHBOY::TravisTinkering - released April 21, 2015 as part of Acme-Author-RSRCHBOY-TravisTinkering.
 
 # SYNOPSIS
 
