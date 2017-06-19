@@ -14,7 +14,7 @@ env:
   global:
     - COVERAGE=1
 before_install:
-  - cpanp x
+  # - cpanp x
   - git clone --depth=1 git://github.com/travis-perl/helpers ~/travis-perl-helpers
   - source ~/travis-perl-helpers/init
   - build-perl
