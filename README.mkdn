@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/RsrchBoy/acme-author-rsrchboy-travistinkering.svg?branch=master)](https://travis-ci.org/RsrchBoy/acme-author-rsrchboy-travistinkering)
 [![Kwalitee status](http://cpants.cpanauthors.org/dist/Acme-Author-RSRCHBOY-TravisTinkering.png)](http://cpants.charsbar.org/dist/overview/Acme-Author-RSRCHBOY-TravisTinkering)
+[![Coverage Status](https://coveralls.io/repos/RsrchBoy/acme-author-rsrchboy-travistinkering/badge.svg?branch=master)](https://coveralls.io/r/RsrchBoy/acme-author-rsrchboy-travistinkering?branch=master)
 
 # NAME
 
@@ -7,7 +8,7 @@ Acme::Author::RSRCHBOY::TravisTinkering - The great new Acme::Author::RSRCHBOY::
 
 # VERSION
 
-This document describes version 0.001 of Acme::Author::RSRCHBOY::TravisTinkering - released April 21, 2015 as part of Acme-Author-RSRCHBOY-TravisTinkering.
+This document describes version 0.001 of Acme::Author::RSRCHBOY::TravisTinkering - released June 19, 2017 as part of Acme-Author-RSRCHBOY-TravisTinkering.
 
 # SYNOPSIS
 
@@ -19,15 +20,10 @@ This will never, ever be released to the CPAN.  (I think)  It's just a scratch
 project designed to allow me to tinker with Travis CI builds w/o constantly
 trying things out in a "travis/tinkering" branch of a real project.
 
-# SOURCE
-
-The development version is on github at [http://https://github.com/RsrchBoy/acme-author-rsrchboy-travistinkering](http://https://github.com/RsrchBoy/acme-author-rsrchboy-travistinkering)
-and may be cloned from [git://https://github.com/RsrchBoy/acme-author-rsrchboy-travistinkering.git](git://https://github.com/RsrchBoy/acme-author-rsrchboy-travistinkering.git)
-
 # BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-https://github.com/RsrchBoy/acme-author-rsrchboy-travistinkering/issues
+[https://github.com/RsrchBoy/acme-author-rsrchboy-travistinkering/issues](https://github.com/RsrchBoy/acme-author-rsrchboy-travistinkering/issues)
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -37,26 +33,9 @@ feature.
 
 Chris Weyl <cweyl@alumni.drew.edu>
 
-## I'm a material boy in a material world
-
-<div>
-    <a href="https://www.gittip.com/RsrchBoy/"><img src="https://raw.githubusercontent.com/gittip/www.gittip.com/master/www/assets/%25version/logo.png" /></a>
-    <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
-    <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Facme-author-rsrchboy-travistinkering&title=RsrchBoy's%20CPAN%20Acme-Author-RSRCHBOY-TravisTinkering&tags=%22RsrchBoy's%20Acme-Author-RSRCHBOY-TravisTinkering%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
-</div>
-
-Please note **I do not expect to be gittip'ed or flattr'ed for this work**,
-rather **it is simply a very pleasant surprise**. I largely create and release
-works like this because I need them or I find it enjoyable; however, don't let
-that stop you if you feel like it ;)
-
-[Flattr this](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Facme-author-rsrchboy-travistinkering&title=RsrchBoy&#x27;s%20CPAN%20Acme-Author-RSRCHBOY-TravisTinkering&tags=%22RsrchBoy&#x27;s%20Acme-Author-RSRCHBOY-TravisTinkering%20in%20the%20CPAN%22),
-[gittip me](https://www.gittip.com/RsrchBoy/), or indulge my
-[Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If you so desire.
-
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2015 by Chris Weyl.
+This software is Copyright (c) 2017 by Chris Weyl.
 
 This is free software, licensed under:
 
