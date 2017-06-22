@@ -6,21 +6,13 @@ addons:
       - aspell-en
 language: perl
 perl:
-  # - "5.20"
-  # - "5.22"
+  - "5.20@dzil"
+  - "5.22@dzil"
   - "5.24@dzil"
   - "5.26@dzil"
 env:
   global:
     - COVERAGE=1
 before_install:
-  # - cpanp x
-  - git clone --depth=1 git://github.com/travis-perl/helpers ~/travis-perl-helpers
-  - source ~/travis-perl-helpers/init
-  - build-perl
-  # - local-lib dzil
-  - perl -V
-  - build-dist
-  - cd $BUILD_DIR
-install:
-  - prove -lr $(test-dirs)<F24><F25>
+  - cpanp x
+  - eval $(curl https://travis-perl.github.io/init) --auto
