@@ -16,3 +16,4 @@ env:
 before_install:
   # - cpanp x
   - eval $(curl https://travis-perl.github.io/init) --auto
+  - local-lib dzil
