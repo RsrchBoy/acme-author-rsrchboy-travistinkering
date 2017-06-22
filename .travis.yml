@@ -14,5 +14,5 @@ env:
   global:
     - COVERAGE=1
 before_install:
-  - cpanp x
+  # - cpanp x
   - eval $(curl https://travis-perl.github.io/init) --auto
